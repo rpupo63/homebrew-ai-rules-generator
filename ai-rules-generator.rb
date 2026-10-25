@@ -2,9 +2,10 @@ class AiRulesGenerator < Formula
   include Language::Python::Virtualenv
 
   desc "CLI tool that generates comprehensive AI coding agent rules"
-  homepage "https://github.com/rpupo63/ai-rules-generator"
-  url "https://github.com/rpupo63/ai-rules-generator/archive/v1.0.0.tar.gz"
-  sha256 "0019dfc4b32d63c1392aa264aed2253c1e0c2fb09216f8e2cc269bbfb8bb49b5"
+  homepage "https://github.com/rpupo63/ai_rules_generator"
+  url "https://github.com/rpupo63/ai_rules_generator/archive/11cc0ebe8449fc02fc2c04c68dff12afe7ee0296.tar.gz"
+  version "2.0.0"
+  sha256 "e9f88e4fc4e047bf2ea0e04584e56fd1ca9f968ec391dbaf970882ff4ddee0e6"
   license "MIT"
 
   depends_on "python@3.11"
